@@ -1,0 +1,46 @@
+Block MODSEL                 # Select model
+ 1    0                      # General MSSM Simulation
+ 3    0			     # MSSM
+Block SMINPUTS               # Standard Model inputs
+ 2   1.166379E-05       # G_F, Fermi constant
+ 3   1.184000E-01       # alpha_s(MZ) SM MSbar
+ 4   9.118760E+01       # Z-boson pole mass
+ 5   4.180000E+00       # m_b(mb) SM MSbar
+ 6   1.731000E+02       # m_top(pole)
+ 7   1.776820E+00       # m_tau(pole)
+Block MINPAR                 # Input parameters
+ 3   1.000000E+01       # tan(beta)
+Block EXTPAR                 # Input parameters
+ 0  -1.000000E+00       # M(input)
+ 1   1.000000E+02       # M1 (Bino mass)
+ 2   1.000000E+02       # M2 (Wino mass)
+ 3   5.800000E+02       # M3 (gluino mass)
+11  -5.000000E+02       # At
+12  -8.000000E+02       # Ab
+13  -2.500000E+02       # Atau
+23   1.000000E+02       # mu
+25   1.000000E+01       # tan(beta)
+26   4.000000E+02       # mA0
+31   2.000000E+02       # M~e_L
+32   2.000000E+02       # M~mu_L
+33   2.000000E+02       # M~tau_L
+34   1.500000E+02       # M~e_R
+35   1.500000E+02       # M~mu_R
+36   1.500000E+02       # M~tau_R
+41   5.000000E+02       # M~Q1_L
+42   5.000000E+02       # M~Q2_L
+43   4.000000E+02       # M~Q3_L
+44   5.000000E+02       # M~u_R
+45   5.000000E+02       # M~c_R
+46   5.000000E+02       # M~t_R
+47   5.000000E+02       # M~d_R
+48   5.000000E+02       # M~s_R
+49   5.000000E+02       # M~b_R
+
+Block SPhenoInput       # SPheno specific input
+ 1  -1                  # error level
+ 2   1                  # SPA conventions
+11   1                  # calculate branching ratios
+12   1.00000000E-04     # write only branching ratios larger than this value
+21   0                  # calculate cross section
+
